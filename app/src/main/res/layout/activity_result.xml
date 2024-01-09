@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_tag_line_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil Test Kesehatan Alergimu"
+            android:textSize="@dimen/h5"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/normal_100"
+            android:layout_marginEnd="@dimen/normal_100"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_result"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="100dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="false"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_tag_line_test"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation ="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/icon_2" />
+                <TextView
+                    android:id="@+id/title_alergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Judul"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_result_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false"
+            app:cardElevation="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintTop_toBottomOf="@id/card_result"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation ="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                >
+                <TextView
+                    android:id="@+id/deskripsi_alergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="viewStart"
+                    android:text="ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2" />
+
+                <TextView
+                    android:id="@+id/himbauan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="viewStart"
+                    android:text="ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2" />
+                <TextView
+                    android:id="@+id/alert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="viewStart"
+                    android:text="ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_result_back_to_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali ke Home"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/bg_button_color_primary"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

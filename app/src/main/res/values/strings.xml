@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Teler</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="user">User</string>
+    <string name="default_text"> Cynthia Nata</string>
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="search">search data</string>
+    <string name="facebook_app_id">6448167975292950</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <!--    <string name="default_web_client_id">1055009030300-u3pbc3r2bcngehqst5in5av68dmophts.apps.googleusercontent.com</string>-->
+    <!--    1055009030300-u3pbc3r2bcngehqst5in5av68dmophts.apps.googleusercontent.com -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mulai_test">Mulai Test</string>
+    <string name="test_kesehatan_alergimu">Test Kesehatan Alergimu</string>
+    <string name="title_onboard">Ketahui Kondisi Kesehatan Alergimu</string>
+    <string name="desc_onboard_1">Dapatkan gambaran kondisi kesehatan alergimu dengan mengikuti Tes Kesehatan Alergi. tidak ada jawaban benar atau salah. jadi jawab dengan jujur ya!</string>
+    <string name="desc_onboard_2">Perlu Kamu ingat, hasil dari test ini sebaiknya jangan digunakan untuk mendiagnosa dirimu sendiri.</string>
+    <string name="start_test_btn">Mulai Test</string>
+    <string name="deskripsi_alergi">Aplikasi Teler merupakan sebuah aplikasi yang dirancang untuk mendeteksi alergi seseorang berdasarkan gejala yang dialami</string>
+
+    <string-array name="resultTestNameAlergyList">
+        <item>Alergi Hewan</item>
+        <item>Alergi Debu/Tungau</item>
+        <item>Alergi Makanan</item>
+        <item>Alergi Obat</item>
+        <item>Alergi Serbuk Sari</item>
+        <item>Alergi Suhu Udara (dingin/panas)</item>
+    </string-array>
+
+    <string-array name="resultTestPredictedAlergy">
+        <item>ALergi hewan adalah reaksi sistem kekebalan tubuh yang abnormal terhadap penyebab alergi yang berasal dari hewan.</item>
+        <item>Alergi tungau debu merupakan reaksi alergi terhadap serangga kecil yang biasa hidup di dalam debu rumah.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="resultTestDescriptionAlergy">
+        <item>Alergi terhadap hewan terjadi ketika sistem kekebalan tubuh bereaksi terhadap protein yang terdapat dalam air liur, kulit mati, atau kotoran hewan peliharaan seperti anjing, kucing, atau kelinci.</item>
+        <item>Alergi terhadap debu atau tungau sering kali disebabkan oleh kehadiran tungau debu rumah. Tungau debu adalah organisme mikroskopis yang hidup di tempat-tempat berdebu seperti kasur, bantal, dan karpet.</item>
+        <item>Alergi makanan terjadi ketika sistem kekebalan tubuh merespons protein tertentu dalam makanan sebagai bahan asing yang berbahaya. Beberapa makanan umum yang dapat menyebabkan alergi termasuk susu, telur, kacang-kacangan, ikan, kerang, gandum, dan kedela</item>
+        <item>Alergi terhadap obat dapat terjadi sebagai reaksi alergi terhadap zat-zat tertentu dalam obat. Beberapa obat yang seringkali menyebabkan alergi termasuk antibiotik seperti penisilin, sulfonamida, dan obat antiinflamasi nonsteroid (OAINS)</item>
+        <item>Alergi serbuk sari, juga dikenal sebagai rinitis alergi, terjadi ketika sistem kekebalan tubuh bereaksi terhadap serbuk sari yang dilepaskan oleh tumbuhan</item>
+        <item>Alergi terhadap suhu udara, baik dingin atau panas, dapat menyebabkan reaksi alergi seperti urtikaria dingin atau urtikaria panas</item>
+    </string-array>
+
+
+    <string-array name="Gejala">
+        <item>Gejala alergi hewan dapat mencakup bersin, gatal-gatal, hidung tersumbat, mata berair, dan batuk.</item>
+        <item> Gejala alergi debu/tungau meliputi hidung gatal, bersin-bersin, mata berair, batuk, dan sesak napas.</item>
+        <item> Gejala alergi makanan dapat bervariasi mulai dari ruam kulit dan gatal-gatal hingga reaksi yang lebih parah seperti sesak napas dan pembengkakan di area wajah atau tenggorokan.</item>
+        <item> Gejala alergi obat dapat meliputi ruam kulit, gatal-gatal, pembengkakan, atau bahkan reaksi yang lebih serius seperti anafilaksis.</item>
+        <item>Gejala alergi serbuk sari meliputi hidung gatal, hidung tersumbat, bersin-bersin, dan mata berair.</item>
+        <item>Gejalanya termasuk ruam kulit, gatal-gatal, pembengkakan, dan kemerahan pada kulit yang terpapar suhu udara tertentu.</item>
+    </string-array>
+</resources>

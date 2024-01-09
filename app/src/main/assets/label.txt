@@ -1,0 +1,6 @@
+Hewan
+Debu/Tungau
+Makanan
+Obat
+Serbuk Sari
+Suhu Udara (dingin/panas)

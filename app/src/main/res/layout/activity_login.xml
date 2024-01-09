@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/normal_100">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/h5"
+            android:layout_marginTop="@dimen/normal_100"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:hintEnabled="false"
+            android:layout_marginTop="@dimen/small_100">
+
+            <EditText
+                android:id="@+id/et_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:paddingStart="@dimen/normal_100"
+                android:hint="@string/email"
+                android:paddingEnd="@dimen/normal_100"
+                android:textColor="@color/black"
+                android:textColorHint="#4D000000"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:hintEnabled="false"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="@dimen/normal_100">
+
+            <EditText
+                android:id="@+id/et_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_edit_text"
+                android:paddingStart="@dimen/normal_100"
+                android:hint="@string/password"
+                android:paddingEnd="@dimen/normal_100"
+                android:textColor="@color/black"
+                android:textColorHint="#4D000000"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_forgot_password_login"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="@string/forgot_password"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/normal_100"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/bg_button_color_primary"
+            android:layout_marginTop="@dimen/normal_100"
+            android:layout_marginStart="@dimen/small_50"
+            android:layout_marginEnd="@dimen/small_50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_100"/>
+
+        <Button
+            android:id="@+id/btn_login_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login With Google"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="@dimen/normal_100"
+            android:layout_marginStart="@dimen/small_50"
+            android:layout_marginEnd="@dimen/small_50"
+            android:background="@drawable/bg_button_color_yellow"/>
+
+        <Button
+            android:id="@+id/btn_login_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login With Facebook"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="@dimen/normal_100"
+            android:layout_marginStart="@dimen/small_50"
+            android:layout_marginEnd="@dimen/small_50"
+            android:background="@drawable/bg_button_color_facebook"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Tidak Punya Akun? Daftar Disini !!"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:layout_gravity="end"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/normal_100"/>
+
+    </LinearLayout>
+
+</ScrollView>

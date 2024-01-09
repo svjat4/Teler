@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752359537374",
+    "project_id": "tes-alergi",
+    "storage_bucket": "tes-alergi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752359537374:android:718983735ae17354e4204f",
+        "android_client_info": {
+          "package_name": "com.kampus.teler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcjRkZjcMNxB7Ohmv18Tr1-hPNhucCJbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
